@@ -9,6 +9,8 @@ export default class EventList extends React.Component {
     this.setState({events : require('../db.json').events});
   }
 
+
+
   render(){
     return(
       <FlatList
